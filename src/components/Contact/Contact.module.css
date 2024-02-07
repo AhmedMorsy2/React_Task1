@@ -1,0 +1,14 @@
+.title {
+  color: #2c3e50;
+}
+.placeholder {
+  color: #65657b;
+  left: 20px;
+  position: absolute;
+  transition: transform 300ms, color 300ms;
+  top: 5px;
+}
+input:focus ~ .placeholder {
+  transform: translateY(-33px);
+  color: #1abc9c;
+}
